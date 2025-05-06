@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-export DH_GOLANG_EXCLUDES := examples examples_security
+export DH_GOLANG_EXCLUDES := draft examples examples_security
 
 %:
 	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
