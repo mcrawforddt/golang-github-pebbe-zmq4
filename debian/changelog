@@ -1,0 +1,5 @@
+zmq4 (1.4.0-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: TODO)
+
+ -- Farsight Security Inc <software@farsightsecurity.com>  Tue, 06 May 2025 14:15:39 -0400

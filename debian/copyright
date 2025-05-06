@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: zmq4
+Upstream-Contact: TODO
+Source: https://github.com/pebbe/zmq4
+
+Files: *
+Copyright: 2013 Peter Kleiweg
+License: BSD-2-clause
+
+Files: debian/*
+Copyright: 2025 Farsight Security Inc <software@farsightsecurity.com>
+License: BSD-2-clause
+Comment: Debian packaging is licensed under the same terms as upstream
+
+License: BSD-2-clause
+ TODO
