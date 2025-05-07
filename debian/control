@@ -17,11 +17,11 @@ Homepage: https://github.com/pebbe/zmq4
 Rules-Requires-Root: no
 XS-Go-Import-Path: github.com/pebbe/zmq4
 
-Package: zmq4
-Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
-Built-Using: ${misc:Built-Using}
+Package: golang-github-pebbe-zmq4-dev
+Architecture: all
+Depends: golang-github-google-uuid-dev,
+         ${misc:Depends},
+         ${shlibs:Depends},
 Description: A Go interface to ZeroMQ version 4 (program)
  A Go interface to ZeroMQ (http://www.zeromq.org/) version 4.
  .
@@ -142,11 +142,3 @@ Description: A Go interface to ZeroMQ version 4 (program)
  .
  Furthermore, an address can now be a single IP address, as well as an IP
  address and mask in CIDR notation, e.g. "123.123.123.0/24".
-
-Package: golang-github-pebbe-zmq4-dev
-Architecture: all
-Depends: golang-github-google-uuid-dev,
-         ${misc:Depends},
-         ${shlibs:Depends},
-Description: dev package for golang-github-pebbe-zmq4-dev
- Not sure if long description should be the same as binary package, or if we need binary package
