@@ -4,7 +4,7 @@ Uploaders: Farsight Security Inc <software@farsightsecurity.com>
 Section: golang
 Testsuite: autopkgtest-pkg-go
 Priority: optional
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 14),
                dh-golang,
                golang-any,
                golang-github-google-uuid-dev,
