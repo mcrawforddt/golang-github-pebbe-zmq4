@@ -143,3 +143,10 @@ Description: A Go interface to ZeroMQ version 4 (program)
  Furthermore, an address can now be a single IP address, as well as an IP
  address and mask in CIDR notation, e.g. "123.123.123.0/24".
 
+Package: golang-github-pebbe-zmq4-dev
+Architecture: all
+Depends: golang-github-google-uuid-dev,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: dev package for golang-github-pebbe-zmq4-dev
+ Not sure if long description should be the same as binary package, or if we need binary package
