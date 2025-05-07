@@ -3,4 +3,4 @@
 export DH_GOLANG_EXCLUDES := draft examples examples_security
 
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
