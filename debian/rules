@@ -4,7 +4,3 @@ export DH_GOLANG_EXCLUDES := draft examples examples_security
 
 %:
 	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
-
-override_dh_auto_test:
-	echo "Some tests are failing, so let's discard the result"
-	dh_auto_test || true
