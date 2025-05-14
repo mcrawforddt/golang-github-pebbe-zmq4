@@ -4,7 +4,7 @@
 %global common_description %{expand:
 A Go interface to ZeroMQ version 4.}
 
-Name:		zmq4
+Name:		%{goname}
 Version:	1.4.0
 Release:	1%{?dist}
 Summary:	Minimalist go config library
