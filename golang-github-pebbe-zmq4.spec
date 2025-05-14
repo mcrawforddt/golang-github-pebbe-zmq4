@@ -26,7 +26,7 @@ sort -u -o devel.file-list devel.file-list
 %global common_description %{expand:
 A Go interface to ZeroMQ version 4.}
 
-Name:		%{goname}
+Name:		zmq4
 Version:	1.4.0
 Release:	1%{?dist}
 Summary:	Minimalist go config library
