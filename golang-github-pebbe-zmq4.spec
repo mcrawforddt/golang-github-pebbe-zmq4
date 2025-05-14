@@ -4,11 +4,11 @@
 %global common_description %{expand:
 A Go interface to ZeroMQ version 4.}
 
-Name:		%{goname}
 Version:	1.4.0
 Release:	1%{?dist}
 Summary:	Minimalist go config library
 %gometa
+Name:     %{goname}
 URL:		  https://github.com/pebbe/zmq4
 Source0:	https://github.com/pebbe/zmq4/archive/%{name}-%{version}.tar.gz
 
