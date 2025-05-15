@@ -43,7 +43,7 @@ Source0:	https://github.com/pebbe/zmq4/archive/%{name}-%{version}.tar.gz
 
 %prep
 # goprep -A fails on rocky9 looking for tarball named zmq4
-setup -q
+%setup -q
 
 %install
 %gopkginstall
