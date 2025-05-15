@@ -31,7 +31,7 @@ Release:	1%{?dist}
 Summary:	Minimalist go config library
 License:    FIXME
 %gometa
-Name:       zmq4
+Name:       %{goname}
 URL:		https://github.com/pebbe/zmq4
 Source0:	https://github.com/pebbe/zmq4/archive/%{name}-%{version}.tar.gz
 
