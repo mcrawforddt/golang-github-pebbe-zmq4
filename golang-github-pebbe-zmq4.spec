@@ -29,10 +29,10 @@ A Go interface to ZeroMQ version 4.}
 Version:	1.4.0
 Release:	1%{?dist}
 Summary:	Minimalist go config library
-License:  FIXME
+License:    FIXME
 %gometa
-Name:     %{goname}
-URL:		  https://github.com/pebbe/zmq4
+Name:       zmq4
+URL:		https://github.com/pebbe/zmq4
 Source0:	https://github.com/pebbe/zmq4/archive/%{name}-%{version}.tar.gz
 
 %description %{common_description}
