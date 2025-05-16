@@ -4,3 +4,6 @@ export DH_GOLANG_EXCLUDES := draft examples examples_security
 
 %:
 	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
+
+override_dh_auto_test:
+	echo "Trying to build a source package"
