@@ -9,7 +9,7 @@ Build-Depends: debhelper-compat (= 13),
                golang-any,
                golang-github-google-uuid-dev,
                libzmq3-dev,
-               pkg-config
+               pkg-config,
 Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/go-team/packages/zmq4
 Vcs-Git: https://salsa.debian.org/go-team/packages/zmq4.git
@@ -22,6 +22,8 @@ Architecture: all
 Depends: golang-github-google-uuid-dev,
          ${misc:Depends},
          ${shlibs:Depends},
+         libzmq3-dev,
+         pkg-config,
 Description: A Go interface to ZeroMQ version 4 (program)
  A Go interface to ZeroMQ (http://www.zeromq.org/) version 4.
  .
